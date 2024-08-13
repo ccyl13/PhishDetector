@@ -9,6 +9,19 @@ PhishDetector es una herramienta para detectar correos electrónicos de phishing
 > **Nota:** Asegúrate de reemplazar `ruta/a/tu/imagen.png` con la URL correcta de la imagen en tu repositorio o en la web.
 
 ## Instalación
+Dependencias
+
+Antes de ejecutar el script, instala las siguientes dependencias de Python:
+
+pip install dkimpy termcolor python-spf whois requests dnspython
+
+Uso
+
+Para ejecutar el análisis de un correo electrónico:
+
+./phish_detector.py /ruta/al/correo/malwarebytes.eml
+
+Reemplaza /ruta/al/correo/malwarebytes.eml con la ruta real al archivo .eml que deseas analizar.
 
 1. **Clonar el Repositorio**
 
